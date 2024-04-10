@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+/* Style pour la table */
+table {
+    width: 80%; /* Largeur de la table */
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center; /* Centrer le contenu des cellules */
+}
+th {
+    background-color: #f2f2f2;
+}
+/* Style pour le lien */
+a {
+    margin-top: 20px; /* Espace en haut du lien */
+}
+
+.button {
+    /*display: flex;
+    justify-content: center;*/
+    align-items: center;
+    height: 27px;
+    width: 82px;
+    background-color: rgb(63, 63, 240);
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    margin-bottom: 38px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none; /* Pour enlever la ligne de soulignement */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
